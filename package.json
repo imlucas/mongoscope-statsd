@@ -1,0 +1,24 @@
+{
+  "name": "mongoscope-statsd",
+  "description": "All in one statsd + mongo backend config for mongoscope",
+  "version": "0.0.1",
+  "author": "Lucas Hrabovsky <hrabovsky.lucas@gmail.com> (http://imlucas.com)",
+  "license": "MIT",
+  "homepage": "http://github.com/imlucas/mongoscope-statsd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imlucas/mongoscope-statsd.git"
+  },
+  "scripts": {
+    "start": "statsd ./index.js"
+  },
+  "keywords": [
+    "mongoscope",
+    "mongodb.js"
+  ],
+  "dependencies": {
+    "mongo-statsd-backend": "0.0.6",
+    "statsd": "^0.7.1",
+    "statsd-node": "^0.2.2"
+  }
+}
